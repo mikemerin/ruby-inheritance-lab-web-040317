@@ -1,10 +1,7 @@
 class User
 
-attr_accessor :first_name, :last_name
+  attr_accessor :first_name, :last_name
 
-def User
-  @first_name = Tracy
-  @last_name = Morgan
-end
+  def User() @first_name, @last_name = "Tracy", "Morgan" end
 
 end
